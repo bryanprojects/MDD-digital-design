@@ -3,7 +3,7 @@ const countEl = document.getElementById('count');
 updateVisitCount();
 
 function updateVisitCount() {
-	fetch('https://api.countapi.xyz/update/florin-popcom/codepen/?amount=1')
+	fetch('https://bryanprojects.github.io/MDD-digital-design/index2.html')
 	.then(res => res.json())
 	.then(res => {
 		countEl.innerHTML = res.value;
